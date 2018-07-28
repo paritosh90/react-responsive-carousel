@@ -8,7 +8,7 @@
 	COLOURS
 ********************************************/
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style: none;
   -webkit-box-sizing: border-box;
@@ -59,7 +59,7 @@ code {
     margin: 30px -30px; }
   .wrapper .demo {
     display: block;
-    margin: 30px 0;
+    margin: auto;
     padding-bottom: 30px;
     border-bottom: 1px solid #333; }
     .wrapper .demo:last-child {
@@ -74,14 +74,14 @@ code {
       margin-left: 30px; }
 
 .demo-gallery, .demo-slider, .demo-carousel {
-  margin: 50px auto; }
+  margin: auto; }
 
 .demo-gallery .thumb {
   width: 200px; }
 
 .demo-carousel {
   width: 100%;
-  margin: 30px auto !important; }
+  margin: auto !important; }
   .demo-carousel .thumb {
     width: 120px; }
 
@@ -94,8 +94,8 @@ code {
 .page-carousel {
   padding: 40px;
   border: 1px solid #fff;
-  width: 80%;
-  margin: 40px auto; }
+  width: 100%;
+  margin: auto; }
 
 h5 {
   margin-bottom: 10px; }
